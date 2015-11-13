@@ -1,0 +1,18 @@
+{
+    "contents" : "---\ntitle: \"R & Co.\"\nauthor: \"Helske & Helske\"\ndate: \"13. marraskuuta 2015\"\noutput: ioslides_presentation\n---\n<!-- -->\n## Working more efficiently with R\n\nKuva: Rstudio, Git, Github, Rmarkdown, Shiny, knitr, bitbucket, Rcpp, stack overflow\n\n## R\n\n- More and more popular (also outside academia)\n- 6th most popular programming language by IEEE Spectrum\n- UseR! 2015 conference: 660 participants, 284 from industry\n\n## Rstudio\n\n- Open source graphical interface for R and related tools\n- Syntax highlighting, autocompletion, and error detection\n- R projects for easy switching between jobs\n- Autosave, command history, environment browser, integrated help\n\n## R Markdown\n\nThis is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents.\n\n## Slide with Bullets\n\n- Bullet 1\n- Bullet 2\n- Bullet 3\n\n## Slide with R Code and Output\n\n```{r}\nsummary(cars)\n```\n\n## Slide with Plot\n\n```{r, echo=FALSE}\nplot(cars)\n```\n\n",
+    "created" : 1447396282701.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2847725002",
+    "id" : "76CF4BA3",
+    "lastKnownWriteTime" : 1447398730,
+    "path" : "D:/repos/R_et_co/R_et_co.Rmd",
+    "project_path" : "R_et_co.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}
