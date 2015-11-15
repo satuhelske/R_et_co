@@ -14,6 +14,7 @@ Kuva: Rstudio, Git, Github, Rmarkdown, Shiny, knitr, bitbucket, Rcpp, stack over
 - More and more popular (also outside academia)
 - 6th most popular programming language by IEEE Spectrum
 - UseR! 2015 conference: 660 participants, 284 from industry
+- https://www.r-project.org/
 
 ## Rstudio
 
@@ -21,26 +22,54 @@ Kuva: Rstudio, Git, Github, Rmarkdown, Shiny, knitr, bitbucket, Rcpp, stack over
 - Syntax highlighting, autocompletion, and error detection
 - R projects for easy switching between jobs
 - Autosave, command history, environment browser, integrated help
+- https://www.rstudio.com/
 
 ## R Markdown
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents.
+- This is an R Markdown presentation.
+- R Markdown is a simple formatting syntax for authoring HTML and PDF documents and slides
+- Based on Markdown and knitr
+- Closely integrated to Rstudio (New File -> R Markdown)
+- http://rmarkdown.rstudio.com/
 
-## Slide with Bullets
+## Rmd features
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
-
-## Slide with R Code and Output
-
+- Equations are (mostly) written like in LaTex: $y_i = \beta x_i$
+- You can easily embed R code to document, which is run during knitting:
 ```{r}
 summary(cars)
 ```
 
-## Slide with Plot
-
-```{r, echo=FALSE}
+## Rmd figures
+And you your favourite plots are embedded to document automatically:
+```{r}
 plot(cars)
 ```
+
+## Git
+
+- Version control system originally for software development
+- Useful also for writing research articles, PhD thesis, R packages...
+- Basics are easy, for small projects no need to use all features (correctly)
+- This too is embedded to Rstudio (Tools -> Version Control)
+- http://rogerdudler.github.io/git-guide/
+
+## Github
+
+- Web-based Git repository hosting service
+- Server for remote storage of git projects with extra layer of fancy stuff
+- Easy way of studying and collaborating with other projects
+- https://github.com/helske
+
+## R package creation
+
+- Packaging is useful even for personal projects 
+- Easier integration with C/C++/Fortran codes with R
+- Getting started easy with `package.skeleton`
+- In Rstudio: New Project -> New Directory -> R package
+
+# Rcpp
+
+- Package for lot easier C++ integration in R
+- You can basically write separate C++ stuff and Rcpp takes care of all the ugly stuff
 
