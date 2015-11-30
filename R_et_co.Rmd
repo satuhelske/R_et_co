@@ -21,27 +21,27 @@ Kuva: Rstudio, Git, Github, Rmarkdown, Shiny, knitr, bitbucket, Rcpp, stack over
 - Open source graphical interface for R and related tools
 - Syntax highlighting, autocompletion, and error detection
 - R projects for easy switching between jobs
-- Autosave, command history, environment browser, integrated help
+- Autosave, command history, plotting history, environment browser, integrated help
 - https://www.rstudio.com/
 
 ## R Markdown
 
 - This is an R Markdown presentation.
-- R Markdown is a simple formatting syntax for authoring HTML and PDF documents and slides
+- Simple formatting syntax for authoring HTML and PDF documents and slides
 - Based on Markdown and knitr
 - Closely integrated to Rstudio (New File -> R Markdown)
 - http://rmarkdown.rstudio.com/
 
 ## Rmd features
 
-- Equations are (mostly) written like in LaTex: $y_i = \beta x_i$
-- You can easily embed R code to document, which is run during knitting:
+- Equations like in LaTex: 
+  \$y_i = \\beta x_i\$ produces $y_i = \beta x_i$       
+- Embedding R code in the document:
 ```{r}
 summary(cars)
 ```
 
 ## Rmd figures
-And you your favourite plots are embedded to document automatically:
 ```{r}
 plot(cars)
 ```
@@ -49,27 +49,52 @@ plot(cars)
 ## Git
 
 - Version control system originally for software development
-- Useful also for writing research articles, PhD thesis, R packages...
-- Basics are easy, for small projects no need to use all features (correctly)
-- This too is embedded to Rstudio (Tools -> Version Control)
+- Useful for writing research articles, PhD theses, R packages, ...
+- Basics are easy and sufficient for small projects
+- Embedded in Rstudio (Tools -> Version Control)
 - http://rogerdudler.github.io/git-guide/
 
 ## Github
 
 - Web-based Git repository hosting service
-- Server for remote storage of git projects with extra layer of fancy stuff
-- Easy way of studying and collaborating with other projects
+- Command line or graphical interface
+- Bug tracking, feature requests, task management, ...
+- Free for public repositories
+    + Free private repositories e.g. in Bitbucket
+- Easy way of interacting with other projects, developers, and users of own projects
 - https://github.com/helske
 
 ## R package creation
 
-- Packaging is useful even for personal projects 
+- Sharing work with others 
+    + CRAN etc.
+- Personal projects
+    + Updating functions, managing files
 - Easier integration with C/C++/Fortran codes with R
-- Getting started easy with `package.skeleton`
+- Getting started with `package.skeleton`
 - In Rstudio: New Project -> New Directory -> R package
 
-# Rcpp
 
-- Package for lot easier C++ integration in R
-- You can basically write separate C++ stuff and Rcpp takes care of all the ugly stuff
+## Useful packages I
+
+- `knitr`
+    + Dynamic report generation (LaTeX, html, Markdown, ...)
+- `ggplot2` and `ggvis`
+    + Plotting systems for R, based on grammar of graphics
+    + Easy to produce complex multi-layered graphics
+- `magritter`
+    + %>%
+- `test_that`
+
+## Useful packages II
+
+- `shiny`
+- `data.table` and `dplyr`
+- `devtools`
+- `Rcpp`
+    + Package for simple C++ integration in R
+    + Writing C++ separately, Rcpp handles the ugly stuff
+
+
+
 
