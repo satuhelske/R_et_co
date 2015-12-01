@@ -66,10 +66,11 @@ plot(cars)
 - Packaging is useful even for personal projects 
 - Easier integration with C/C++/Fortran codes with R
 - Getting started easy with `package.skeleton`
-- In Rstudio: New Project -> New Directory -> R package
+- In RStudio: New Project -> New Directory -> R package
 
 # Rcpp
 
 - Package for lot easier C++ integration in R
-- You can basically write separate C++ stuff and Rcpp takes care of all the ugly stuff
+- You can (almost) write separate C++ codes and Rcpp takes care of all the ugly stuff
+
 
