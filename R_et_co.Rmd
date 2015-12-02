@@ -11,7 +11,7 @@ Kuva: Rstudio, Git, Github, Rmarkdown, Shiny, knitr, bitbucket, Rcpp, stack over
 
 ## R
 
-- More and more popular (also outside academia)
+<!-- - More and more popular (also outside academia) -->
 - 6th most popular programming language by IEEE Spectrum
 - UseR! 2015 conference: 660 participants, 284 from industry
 - https://www.r-project.org/
@@ -20,13 +20,13 @@ Kuva: Rstudio, Git, Github, Rmarkdown, Shiny, knitr, bitbucket, Rcpp, stack over
 
 - Open source graphical interface for R and related tools
 - Syntax highlighting, autocompletion, and error detection
-- R projects for easy switching between jobs
+- R projects for easy return to and switching between jobs
 - Autosave, command history, plotting history, environment browser, integrated help
 - https://www.rstudio.com/
 
 ## R Markdown
 
-- This is an R Markdown presentation.
+- This is an R Markdown presentation
 - Simple formatting syntax for authoring HTML and PDF documents and slides
 - Based on Markdown and knitr
 - Closely integrated to Rstudio (New File -> R Markdown)
@@ -79,22 +79,56 @@ plot(cars)
 
 - `knitr`
     + Dynamic report generation (LaTeX, html, Markdown, ...)
-- `ggplot2` and `ggvis`
-    + Plotting systems for R, based on grammar of graphics
+    + Easy to re-compile and update outputs <!-- e.g. PDFs --> 
+- `ggplot2`
+    + Plotting system based on the grammar of graphics
     + Easy to produce complex multi-layered graphics
-- `magritter`
-    + %>%
-- `test_that`
+- `ggvis`
+    + Similar to `ggplot2`, faster but more restricted <!-- newer, more features coming --> 
+    + Interactive graphics in RStudio or a browser
+
+    
+
 
 ## Useful packages II
 
+- `magrittr`
+    + Piping via `%>%` operator
+    + Improves readability and maintainability of code
+- `dplyr` and `data.table`
+    + Enhanced versions of `data.frame`
+    + Fast and memory-efficient
+    + More flexible data manipulation
+    + Working with remote databases, automatic translation to SQL (`dplyr`)
+
+
+## Useful packages III
+
+- `test_that`
+    + Testing framework for R
+    + Catching errors, warnings, messages, ...  <!-- store tests so they can be
+re-run automatically when code gets changed --> 
+    + Easy to learn and use
 - `shiny`
-- `data.table` and `dplyr`
+    + Building interactive web applications from R
+    + Web development skills not required
 - `devtools`
+    + Simplifying tasks in package development
 - `Rcpp`
     + Package for simple C++ integration in R
     + Writing C++ separately, Rcpp handles the ugly stuff
 
+## Learning
 
+- DataCamp
+    + R tutorials and data science courses in browser
+    + Checks code on-the-fly, gives useful feedback
+    + Resources for building own courses
+- Try R
+- RStudio Online learning
+
+## Teaching
+
+## Getting help
 
 
