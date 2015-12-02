@@ -1,3 +1,4 @@
+
 ---
 title: "R & Co."
 author: "Helske & Helske"
@@ -67,7 +68,7 @@ plot(cars)
 ## R package creation
 
 - Sharing work with others 
-    + CRAN etc.
+    + Co-workers, CRAN etc.
 - Personal projects
     + Updating functions, managing files
 - Easier integration with C/C++/Fortran codes with R
@@ -130,5 +131,3 @@ re-run automatically when code gets changed -->
 ## Teaching
 
 ## Getting help
-
-
