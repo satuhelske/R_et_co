@@ -1,8 +1,7 @@
-
 ---
 title: "R and related tools for research and teaching"
 author: "Jouni Helske & Satu Helske"
-date: "13. marraskuuta 2015"
+date: "4 December 2015"
 output: ioslides_presentation
 ---
 <!-- -->
@@ -23,15 +22,15 @@ Kuva: Rstudio, Git, Github, Rmarkdown, Shiny, knitr, bitbucket, Rcpp, stack over
 
 - Open source graphical interface for R and related tools
 - Syntax highlighting, autocompletion, and error detection
-- R projects for easy return to and switching between jobs
 - Autosave, command history, plotting history, environment browser, integrated help
+- R projects for easy return to and switching between jobs
 - https://www.rstudio.com/
 
 ## R Markdown
 
 - This is an R Markdown presentation
 - Simple formatting syntax for authoring HTML and PDF documents and slides
-- Based on Markdown and knitr
+- Based on Markdown language and `knitr` package
 - Closely integrated to Rstudio (New File -> R Markdown)
 - http://rmarkdown.rstudio.com/
 
@@ -49,10 +48,21 @@ summary(cars)
 plot(cars)
 ```
 
+## R package creation
+
+- Sharing work with others 
+    + Co-workers, CRAN etc.
+- Personal projects
+    + Loading functions, data and other packages at once
+- Easier integration with C/C++/Fortran codes with R
+- Getting started with `package.skeleton`
+- In Rstudio: New Project -> New Directory -> R package
+
+
 ## Git
 
 - Version control system originally for software development
-- Useful for writing research articles, PhD theses, R packages, ...
+- Useful for writing research articles, theses, R packages, ...
 - Basics are easy and sufficient for small projects
 - Embedded in Rstudio (Tools -> Version Control)
 - http://rogerdudler.github.io/git-guide/
@@ -60,40 +70,25 @@ plot(cars)
 ## Github
 
 - Web-based Git repository hosting service
-- Command line or graphical interface
-- Bug tracking, feature requests, task management, ...
+- Interacting with other developers and users
+- Bug tracking, feature requests, task management, ... <!--assign tasks -->
 - Free for public repositories
     + Free private repositories e.g. in Bitbucket
-- Easy way of interacting with other projects, developers, and users of own projects
 - https://github.com/helske
 
-## R package creation
-
-- Sharing work with others 
-    + Co-workers, CRAN etc.
-- Personal projects
-    + Updating functions, managing files
-- Easier integration with C/C++/Fortran codes with R
-- Getting started with `package.skeleton`
-- In Rstudio: New Project -> New Directory -> R package
 
 
-## Useful packages I
+## Useful packages for graphics
 
-- `knitr`
-    + Dynamic report generation (LaTeX, html, Markdown, ...)
-    + Easy to re-compile and update outputs <!-- e.g. PDFs --> 
 - `ggplot2`
     + Plotting system based on the grammar of graphics
     + Easy to produce complex multi-layered graphics
 - `ggvis`
     + Similar to `ggplot2`, faster but more restricted <!-- newer, more features coming --> 
     + Interactive graphics in RStudio or a browser
+- `grid`
 
-    
-
-
-## Useful packages II
+## Useful packages for data manipulation
 
 - `magrittr`
     + Piping via `%>%` operator
@@ -105,31 +100,76 @@ plot(cars)
     + Working with remote databases, automatic translation to SQL (`dplyr`)
 
 
-## Useful packages III
+## Useful packages for reporting
 
-- `test_that`
+- `knitr`
+    + Dynamic report generation (PDF, html, Word, ...)
+    + Easy to re-compile and update outputs <!-- e.g. PDFs --> 
+- `shiny`
+    + Building interactive web applications from R
+    + Web development skills not required
+
+
+## Useful packages for package development
+
+- `testthat`
     + Testing framework for R
     + Catching errors, warnings, messages, ...  <!-- store tests so they can be
 re-run automatically when code gets changed --> 
     + Easy to learn and use
-- `shiny`
-    + Building interactive web applications from R
-    + Web development skills not required
 - `devtools`
     + Simplifying tasks in package development
+- `roxygen2`
+    + Writing documentation for functions etc.
 - `Rcpp`
     + Package for simple C++ integration in R
     + Writing C++ separately, Rcpp handles the ugly stuff
+- `inline`
+    + Dynamically defining R functions with inlined C/C++/Fortran code
+
 
 ## Learning
 
-- DataCamp
-    + R tutorials and data science courses in browser
-    + Checks code on-the-fly, gives useful feedback
-    + Resources for building own courses
-- Try R
-- RStudio Online learning
+- Read
+    + [RStudio Online learning](https://www.rstudio.com/resources/training/online-learning/)
+    + [Quick-R](http://www.statmethods.net/)
+    + [OpenIntro](https://www.openintro.org/)
+- Hands-on learning online
+    + [DataCamp](https://www.datacamp.com/)
+        * R tutorials and data science courses in browser
+        <!-- * Checks code on-the-fly, gives useful feedback -->
+        <!-- * Registration needed, many courses are free One free month was enough for me -->
+    + [Codeschool](https://www.codeschool.com/)
+        * Learn R, Git, SQL, ...
+        <!-- * Basics are free, some accessible without registration -->
+- Hands-on in R
+    + [`swirl` package](http://swirlstats.com/)
 
-## Teaching
+## Teaching I
+
+- [OpenIntro](https://www.openintro.org/)
+    + Free material for teachers to use and modify
+    + Textbooks, slides, excercises, ...
+    + Statistics, R, SAS, ...
+- [DataCamp](https://www.datacamp.com/)
+    + Resources for building own courses
+- [`testwhat` package](https://github.com/Data-Camp/testwhat)
+    + Wrapper around `testthat` for checking exercises
+    
+
+## Teaching II
+
+- [Shiny apps](http://statistics.calpoly.edu/shiny) by Cal Poly State University
+    + Correlation and regression game, sampling distribution demonstration, longest run of heads or tails, ...
+- [Using Github](https://github.com/rundel/Presentations/blob/master/UseR2015/user2015.pdf) (experiences by Colin Rundel)
+    + Assignments turned in via Github
+    + Students learn version control
+    + Simpler course administration
+    + Keeping track of contributions
+    <!-- He talks about automating checks -> could use checks for CRAN -->
+
 
 ## Getting help
+
+- [Stack overflow](http://stackoverflow.com/)
+
