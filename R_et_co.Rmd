@@ -1,6 +1,6 @@
 
 ---
-title: "R & Co."
+title: "R and related tools for research and teaching"
 author: "Helske & Helske"
 date: "13. marraskuuta 2015"
 output: ioslides_presentation
@@ -9,6 +9,8 @@ output: ioslides_presentation
 ## Working more efficiently with R
 
 Kuva: Rstudio, Git, Github, Rmarkdown, Shiny, knitr, bitbucket, Rcpp, stack overflow
+
+<!-- These cover a wide range of academic work from data manipulation and analysis to software development, reporting and teaching. We glance at topics such as reproducibility, version control, packaging, and testing. -->
 
 ## R
 
