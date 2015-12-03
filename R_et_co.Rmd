@@ -7,7 +7,9 @@ output: ioslides_presentation
 <!-- -->
 ## Working more efficiently with R
 
-Kuva: Rstudio, Git, Github, Rmarkdown, Shiny, knitr, bitbucket, Rcpp, stack overflow
+![kuva1][kuva1]
+
+[kuva1]: kuva1.png "Title"
 
 <!-- These cover a wide range of academic work from data manipulation and analysis to software development, reporting and teaching. We glance at topics such as reproducibility, version control, packaging, and testing. -->
 
@@ -22,7 +24,7 @@ Kuva: Rstudio, Git, Github, Rmarkdown, Shiny, knitr, bitbucket, Rcpp, stack over
 
 - Open source graphical interface for R and related tools
 - Syntax highlighting, autocompletion, and error detection
-- Autosave, command history, plotting history, environment browser, integrated help
+- Autosave, command history, plotting history, environment browser, integrated searchable help
 - R projects for easy return to and switching between jobs
 - https://www.rstudio.com/
 
@@ -190,4 +192,4 @@ Oranges  | 9     | 56
 ## Getting help
 
 - [Stack overflow](http://stackoverflow.com/)
-
+- [Google](http://google.com/)...
