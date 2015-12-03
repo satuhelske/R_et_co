@@ -48,6 +48,21 @@ summary(cars)
 plot(cars)
 ```
 
+## Rmd tables
+```
+Type     | Freq  | %
+---------| ------|-----
+Apples   | 7     | 44
+Oranges  | 9     | 56
+
+```
+
+Type     | Freq  | %
+---------| ------|-----
+Apples   | 7     | 44
+Oranges  | 9     | 56
+
+
 ## R package creation
 
 - Sharing work with others 
@@ -73,7 +88,7 @@ plot(cars)
 - Interacting with other developers and users
 - Bug tracking, feature requests, task management, ... <!--assign tasks -->
 - Free for public repositories
-    + Free private repositories e.g. in Bitbucket
+    + Free private repositories e.g. in [Bitbucket](https://bitbucket.org/)
 - https://github.com/helske
 
 
@@ -86,7 +101,10 @@ plot(cars)
 - `ggvis`
     + Similar to `ggplot2`, faster but more restricted <!-- newer, more features coming --> 
     + Interactive graphics in RStudio or a browser
-- `grid`
+- `grid`, `gridBase`
+    + Control and flexibility in appearance and arrangement
+    + Basis for developing high-level functions <!-- (e.g., lattice and ggplot2 packages -->
+    <!-- grid cannot be used with base graphics, gridbase available for mixing grid and base graphics -->
 
 ## Useful packages for data manipulation
 
@@ -110,22 +128,22 @@ plot(cars)
     + Web development skills not required
 
 
-## Useful packages for package development
+## Useful packages for packaging
 
 - `testthat`
     + Testing framework for R
-    + Catching errors, warnings, messages, ...  <!-- store tests so they can be
-re-run automatically when code gets changed --> 
-    + Easy to learn and use
+    + Catching errors, warnings, messages, ...  
+    <!-- store tests so they can be re-run automatically when code gets changed --> 
+    <!-- Easy to learn and use --> 
 - `devtools`
     + Simplifying tasks in package development
 - `roxygen2`
     + Writing documentation for functions etc.
 - `Rcpp`
-    + Package for simple C++ integration in R
+    + Simple C++ integration in R
     + Writing C++ separately, Rcpp handles the ugly stuff
-- `inline`
-    + Dynamically defining R functions with inlined C/C++/Fortran code
+<!-- - `inline`
+    + Dynamically defining R functions with inlined C/C++/Fortran code --> 
 
 
 ## Learning
