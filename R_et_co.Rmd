@@ -9,36 +9,41 @@ output: ioslides_presentation
 
 ![kuva1][kuva1]
 
-[kuva1]: kuva1.png "Title"
+[kuva1]: kuva1.png
 
 <!-- These cover a wide range of academic work from data manipulation and analysis to software development, reporting and teaching. We glance at topics such as reproducibility, version control, packaging, and testing. -->
 
 ## R
 
 <!-- - More and more popular (also outside academia) -->
-- More than 2 million users (in 2014, by Revolution Analytics)
-- 6th most popular programming language by IEEE Spectrum (in 2015)
-- Growing faster than any other data science language (by Revolution Analytics)
+- More than 2 million users ([Oracle estimate](http://www.oracle.com/us/corporate/press/1515738) in 2012)
+- 6th most popular programming language by [IEEE Spectrum](http://spectrum.ieee.org/computing/software/the-2015-top-ten-programming-languages) (in 2015)
+- 3rd in number of scholarly articles in Google Scholar (in 2014; [blog post](http://r4stats.com/articles/popularity/) by R.A.Muenchen)
 - UseR! 2015 conference: 660 participants, 284 from industry
-- https://www.r-project.org/
 - R activity around the world: http://rapporter.net/custom/R-activity
+- https://www.r-project.org/
 <!-- Gergely Daróczi; Switzerland 1st, Finland 18th -->
 
 ## Rstudio
 
 - Open source graphical interface for R and related tools
-- Syntax highlighting, autocompletion, and error detection
+- Code completion, syntax highlighting, code diagnostics
 - Autosave, command history, plotting history, environment browser, integrated searchable help
 - R projects for easy return to and switching between jobs
 - https://www.rstudio.com/
 
 ## R Markdown
 
-- This is an R Markdown presentation
 - Simple formatting syntax for authoring HTML and PDF documents and slides
-- Based on Markdown language and `knitr` package
+- Based on Markdown language, `knitr`, and pandoc
+- Fully reproducible documents
 - Closely integrated to Rstudio (New File -> R Markdown)
 - http://rmarkdown.rstudio.com/
+<!-- This is an R Markdown presentation. -->
+
+![Rmarkdown][Rmarkdown]
+
+[Rmarkdown]: Rmarkdown.png 
 
 ## Rmd features
 
