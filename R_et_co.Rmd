@@ -16,9 +16,13 @@ output: ioslides_presentation
 ## R
 
 <!-- - More and more popular (also outside academia) -->
-- 6th most popular programming language by IEEE Spectrum
+- More than 2 million users (in 2014)
+- 6th most popular programming language by IEEE Spectrum (in 2015)
+- Growing faster than any other programming language
 - UseR! 2015 conference: 660 participants, 284 from industry
 - https://www.r-project.org/
+- R activity around the world: http://rapporter.net/custom/R-activity
+<!-- Switzerland 1st, Finland 18th -->
 
 ## Rstudio
 
