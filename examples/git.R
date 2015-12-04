@@ -5,3 +5,4 @@ x <- 1
 # command "git commit -m "commit message"" updates the local git repository
 # command "git push origin master" pushes the updates to remote repository
 
+# remember to mention Rtools somewhere!
